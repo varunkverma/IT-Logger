@@ -2,6 +2,7 @@ import React, { useEffect, Fragment } from "react";
 import AddButton from "./components/layout/add-button/addButton.component";
 import AddLogModal from "./components/logs/add-log-modal/add-log-modal.component";
 import "./App.css";
+import EditLogModal from "./components/logs/edit-log-modal/edit-log-modal.component";
 
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
@@ -22,6 +23,7 @@ const App = () => {
       <div className="container">
         <AddButton />
         <AddLogModal />
+        <EditLogModal />
         <LogList />
       </div>
     </Fragment>
