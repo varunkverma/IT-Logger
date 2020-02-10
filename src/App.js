@@ -1,6 +1,8 @@
 import React, { useEffect, Fragment } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 import AddButton from "./components/layout/add-button/addButton.component";
 import AddLogModal from "./components/logs/add-log-modal/add-log-modal.component";
@@ -19,17 +21,19 @@ const App = () => {
   });
 
   return (
-    <Fragment>
-      <SearchBar />
-      <div className="container">
-        <AddButton />
-        <AddLogModal />
-        <EditLogModal />
-        <AddTechModal />
-        <TechListModal />
-        <LogList />
-      </div>
-    </Fragment>
+    <Provider store={store}>
+      <Fragment>
+        <SearchBar />
+        <div className="container">
+          <AddButton />
+          <AddLogModal />
+          <EditLogModal />
+          <AddTechModal />
+          <TechListModal />
+          <LogList />
+        </div>
+      </Fragment>
+    </Provider>
   );
 };
 
