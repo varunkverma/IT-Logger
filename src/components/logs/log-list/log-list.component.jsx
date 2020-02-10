@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LogItem from "../log-item/log-item.component";
-import Preloader from "../../layout/preloader/preloader.component";
+
 import Predloader from "../../layout/preloader/preloader.component";
 
 const LogList = () => {
