@@ -19,6 +19,7 @@ export const getLogs = () => async dispatch => {
     setLoading();
 
     const res = await fetch("/logs");
+
     const data = await res.json();
 
     dispatch({
@@ -26,6 +27,7 @@ export const getLogs = () => async dispatch => {
       payload: data
     });
   } catch (err) {
+    console.log(err);
     dispatch({
       type: LOGS_ERROR,
       payload: err.response.data
