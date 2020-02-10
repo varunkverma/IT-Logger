@@ -1,5 +1,9 @@
 import { combineReducers } from "redux";
 
-const rootReducer = combineReducers({});
+import logReducer from "./log/log.reducer";
+
+const rootReducer = combineReducers({
+  log: logReducer
+});
 
 export default rootReducer;
