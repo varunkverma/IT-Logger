@@ -13,7 +13,7 @@ const AddButton = () => {
         <li>
           <a
             href="#tech-list-modal"
-            className="btn-floating green model-trigger"
+            className="btn-floating green modal-trigger"
           >
             <i className="material-icons">person</i>
           </a>
