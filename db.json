@@ -1,25 +1,11 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive on workstation 005",
+      "message": "Change HDMI cable for workstation 010 ",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
-    },
-    {
-      "id": 2,
-      "message": "Workstation 007 not posting",
-      "attention": true,
-      "date": "03-02-2019",
-      "tech": "John Doe"
-    },
-    {
-      "id": 3,
-      "message": "Softwares installed on workstation 102",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
+      "tech": "Sam Smith",
+      "date": "2020-02-10T19:22:21.100Z",
+      "id": 1
     }
   ],
   "techs": [
