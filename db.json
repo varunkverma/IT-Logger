@@ -1,11 +1,10 @@
 {
   "logs": [
     {
-      "message": "task2",
+      "id": 2,
+      "message": "fixed update",
       "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-02-11T08:33:21.675Z",
-      "id": 2
+      "tech": "Sam Smith"
     }
   ],
   "techs": [
