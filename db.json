@@ -7,13 +7,6 @@
       "tech": "Sam Smith"
     },
     {
-      "message": "fix wiring of workstation 019",
-      "attention": true,
-      "tech": "Mike Thames",
-      "date": "2020-02-11T09:46:09.059Z",
-      "id": 3
-    },
-    {
       "message": "get a new mouse for work station 102",
       "attention": true,
       "tech": "Sam Smith",
@@ -33,9 +26,9 @@
       "lastName": "Smith"
     },
     {
-      "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "id": 4
     }
   ]
 }
