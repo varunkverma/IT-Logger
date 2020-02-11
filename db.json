@@ -1,11 +1,11 @@
 {
   "logs": [
     {
-      "message": "Change HDMI cable for workstation 010 ",
+      "message": "task2",
       "attention": false,
       "tech": "Sam Smith",
-      "date": "2020-02-10T19:22:21.100Z",
-      "id": 1
+      "date": "2020-02-11T08:33:21.675Z",
+      "id": 2
     }
   ],
   "techs": [
